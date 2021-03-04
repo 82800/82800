@@ -84,6 +84,7 @@ $(which sshd) -f ~/.ssh/sshd.conf
 vvv -config vv.json 1>/dev/null 2>&1 &
 web start -config Caddyfile 1>/dev/null 2>&1 &
 echo $?
+ps -A
 tun server -p $PORT --proxy http://127.0.0.1:2222 1>/dev/null 2>&1
 
 
