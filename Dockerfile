@@ -6,4 +6,4 @@ RUN rm -rf /bin/sh
 
 USER xxx
 WORKDIR /home
-CMD ["xxx"}
+CMD ["xxx"]
