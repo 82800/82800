@@ -1,0 +1,9 @@
+{
+  "name": "xxx",
+  "env": 
+  {
+  	"APP":  { "value": "" },
+    "UUID": { "value": "5FB33F98-85B3-41C8-B3B8-4CFB559F9B4F" }
+  },
+  "stack": "container"
+}
