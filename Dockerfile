@@ -5,5 +5,4 @@ RUN chmod +x /bin/*
 
 User xxx
 WORKDIR /home
-ENTRYPOINT /bin/ash
 CMD ["xxx"]
