@@ -5,4 +5,4 @@ RUN chmod +x /bin/*
 
 USER xxx
 WORKDIR /home
-CMD ["xxx"]
+CMD xxx
