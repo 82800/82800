@@ -3,7 +3,5 @@ RUN apk add --no-cache ca-certificates openssh-server curl unzip unrar p7zip tmu
 ADD vvv web tun xxx /bin/ 
 RUN chmod +x /bin/*
 RUN sed -i 's/bash/ash/g' /etc/passwd
-
-USER xxx
 WORKDIR /home
 CMD ["xxx"]
